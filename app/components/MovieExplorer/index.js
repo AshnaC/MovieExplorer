@@ -27,7 +27,7 @@ class MovieExplorer extends React.PureComponent {
       <ExplorerWrapper>
         <Search
           value={this.state.inputValue || ""}
-          placeholder="Search..."
+          placeholder="Search people..."
           onChange={this.onInputChange}
           onKeyUp={this.handleSearch}
           onClick={this.onInputClick}
