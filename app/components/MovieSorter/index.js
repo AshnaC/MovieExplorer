@@ -69,6 +69,4 @@ class MovieSorter extends React.PureComponent {
   };
 }
 
-MovieSorter.propTypes = {};
-
 export default MovieSorter;

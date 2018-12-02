@@ -41,6 +41,4 @@ class MovieLister extends React.PureComponent {
   }
 }
 
-MovieLister.propTypes = {};
-
 export default MovieLister;

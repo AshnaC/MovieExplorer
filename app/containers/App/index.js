@@ -8,7 +8,6 @@ import React from 'react';
 import styled from 'styled-components';
 import { Switch, Route } from 'react-router-dom';
 
-// import FundContainer from '../FundContainer';
 import MovieContainer from 'containers/MovieContainer';
 
 const AppWrapper = styled.div`
@@ -17,7 +16,6 @@ const AppWrapper = styled.div`
   display: flex;
   min-height: 100vh;
   flex-direction: column;
-  // background: darkslategray;
 `;
 
 export default function App() {

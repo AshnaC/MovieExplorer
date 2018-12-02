@@ -100,6 +100,4 @@ class MovieExplorer extends React.PureComponent {
   };
 }
 
-MovieExplorer.propTypes = {};
-
 export default MovieExplorer;

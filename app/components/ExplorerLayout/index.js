@@ -73,6 +73,4 @@ class ExplorerLayout extends React.Component {
   };
 }
 
-ExplorerLayout.propTypes = {};
-
 export default ExplorerLayout;

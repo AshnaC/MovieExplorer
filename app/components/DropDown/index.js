@@ -14,7 +14,6 @@ import {
   OptionsWrapper,
   Interstitial
 } from "./styles";
-import FontAwesome from "react-fontawesome";
 
 class DropDown extends React.PureComponent {
   state = { selectedOption: {} };
@@ -57,7 +56,5 @@ class DropDown extends React.PureComponent {
     this.props.getSortedList(selectedOption);
   };
 }
-
-DropDown.propTypes = {};
 
 export default DropDown;

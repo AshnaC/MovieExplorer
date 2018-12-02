@@ -5,7 +5,6 @@
  */
 
 import React from "react";
-import PropTypes from "prop-types";
 import { connect } from "react-redux";
 import { createStructuredSelector } from "reselect";
 import { compose } from "redux";
@@ -52,18 +51,9 @@ export class MovieContainer extends React.Component {
   }
 }
 
-MovieContainer.propTypes = {
-  dispatch: PropTypes.func
-};
-
 const mapStateToProps = createStructuredSelector({
   moviecontainer: makeSelectMovieContainer()
 });
-
-// const mapStateToProps =
-//   createStructuredSelector(
-//     {...makeSelectMovieContainer()}
-//   );
 
 function mapDispatchToProps(dispatch) {
   return {
